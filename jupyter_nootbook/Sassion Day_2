@@ -1,0 +1,131 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "161d5699-e333-44de-a570-beca4c1b7902",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# body mass index (BMI)\n",
+    "# input weight\n",
+    "# Height\n",
+    "# BMI (Ask your self your height)\n",
+    "# weight\n",
+    "# calculate BMI \n",
+    "# print BMI (My name is Sajjad , And my BMI is ------- )\n",
+    "\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b13118a4-94c7-47ac-a3d9-6395225522ef",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "height = input(\"What is your height? \") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "841cae79-2ec6-447a-808d-641e63efee96",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "height = float(height)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bada9e7c-b51b-4508-bf24-75ca3d9cb3a6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "weight = input(\"What is your weight? \") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3f93c9a1-146f-48c7-92d8-8c24e0b78d30",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "weight = float(weight)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7492c971-a4f6-43c0-8cf8-35e65b7004bf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name = input(\"What is your name? \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1f47b69a-c552-48fb-a3a1-f1a7a14167ca",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#BMI = weight/height**2\n",
+    "BMI"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d4a39e83-d696-4077-a8ba-bb34166c8456",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#print(\"My name is\", name,\"And my BMI is\", BMI)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6021a479-b292-401f-9556-c929d11df4e1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import seaborn as sns\n",
+    "import matplotlib.pyplot as plt\n",
+    "sns.set_theme(style=\"ticks\", color_codes=True)\n",
+    "\n",
+    "tanic sns.load_dataset(\"titanic\")\n",
+    "ans.catplot(x=\"sex\", y=\"survived\", hue=\"class\", kind \"bar\", data-titanic)\n",
+    "\n",
+    "plt.show()"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
